@@ -1,6 +1,7 @@
+import joblib 
 import streamlit as st
 import pandas as pd
-import joblib
+
 
 # Load saved model, scaler, and expected columns
 model = joblib.load("LR_heart.pkl")
@@ -161,3 +162,4 @@ st.markdown("""
         🚀 Developed by <b>Satyam Raj Mahakul</b>
     </div>
 """, unsafe_allow_html=True)
+
