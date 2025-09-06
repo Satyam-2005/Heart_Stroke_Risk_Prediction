@@ -48,6 +48,15 @@ st.markdown("""
         font-weight: bold;
         animation: fadeIn 1.2s;
     }
+    .footer {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 14px;
+        color: #555;
+    }
+    .footer b {
+        color: #ff416c;
+    }
     @keyframes fadeIn {
         from {opacity: 0; transform: translateY(20px);}
         to {opacity: 1; transform: translateY(0);}
@@ -145,3 +154,10 @@ if st.button("🔍 Predict Risk"):
         </div>
         """, unsafe_allow_html=True)
         st.progress(int(prob*100))
+
+# --- Footer ---
+st.markdown("""
+    <div class="footer">
+        🚀 Developed by <b>Satyam Raj Mahakul</b>
+    </div>
+""", unsafe_allow_html=True)
