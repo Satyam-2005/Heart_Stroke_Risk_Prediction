@@ -26,7 +26,7 @@ It uses a **Machine Learning model (Logistic Regression)** trained on medical da
 ---
 
 ## 🚀 Live Demo  
-👉 [Click here to try the app](https://YOUR-STREAMLIT-APP-LINK)  
+👉 [Click here to try the app](https://heartstrokeriskprediction.streamlit.app/)  
 
 ---
 
